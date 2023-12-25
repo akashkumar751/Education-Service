@@ -1,5 +1,11 @@
 package com.education.educationservice.entity;
 
+/**
+ * 
+ * akash.kumar
+ * 
+ **/
+
 public class Course {
 	private long id;
 	private String name;
@@ -12,11 +18,11 @@ public class Course {
 		this.name = builder.name;
 	}
 
-	public long id() {
+	public long getId() {
 		return id;
 	}
 
-	public String name() {
+	public String getName() {
 		return name;
 	}
 
